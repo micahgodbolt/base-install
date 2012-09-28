@@ -1,0 +1,1 @@
+A HTML5 boilerplate based starting theme for a basic sass project
