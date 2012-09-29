@@ -1,0 +1,272 @@
+/* normalize.css 2011-08-12T17:28 UTC · http://github.com/necolas/normalize.css */
+/******************************************************************************
+ * HTML5 display definitions
+ ***************************************************************************** */
+/* line 7, ../sass/partials/_normalize.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 11, ../sass/partials/_normalize.sass */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 17, ../sass/partials/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 21, ../sass/partials/_normalize.sass */
+[hidden] {
+  display: none;
+}
+
+/******************************************************************************
+ * Base
+ ***************************************************************************** */
+/* line 30, ../sass/partials/_normalize.sass */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 40, ../sass/partials/_normalize.sass */
+body {
+  margin: 0;
+}
+
+/* line 44, ../sass/partials/_normalize.sass */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/******************************************************************************
+ * Links
+ ***************************************************************************** */
+/* line 53, ../sass/partials/_normalize.sass */
+a {
+  color: #0000ee;
+}
+/* line 55, ../sass/partials/_normalize.sass */
+a:visited {
+  color: #551a8b;
+}
+/* line 57, ../sass/partials/_normalize.sass */
+a:focus {
+  outline: thin dotted;
+}
+/* line 60, ../sass/partials/_normalize.sass */
+a:hover, a:active {
+  outline: 0;
+}
+
+/******************************************************************************
+ * Typography
+ ***************************************************************************** */
+/* line 69, ../sass/partials/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 73, ../sass/partials/_normalize.sass */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 77, ../sass/partials/_normalize.sass */
+dfn {
+  font-style: italic;
+}
+
+/* line 81, ../sass/partials/_normalize.sass */
+mark {
+  background: yellow;
+  color: black;
+}
+
+/* line 86, ../sass/partials/_normalize.sass */
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em;
+}
+
+/* line 93, ../sass/partials/_normalize.sass */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 99, ../sass/partials/_normalize.sass */
+q {
+  quotes: none;
+}
+/* line 104, ../sass/partials/_normalize.sass */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 108, ../sass/partials/_normalize.sass */
+small {
+  font-size: 75%;
+}
+
+/* line 111, ../sass/partials/_normalize.sass */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 116, ../sass/partials/_normalize.sass */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 121, ../sass/partials/_normalize.sass */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+/* line 127, ../sass/partials/_normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/******************************************************************************
+ * Lists
+ ***************************************************************************** */
+/* line 134, ../sass/partials/_normalize.sass */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 138, ../sass/partials/_normalize.sass */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 142, ../sass/partials/_normalize.sass */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/******************************************************************************
+ * Embedded content
+ ***************************************************************************** */
+/* */
+/* line 152, ../sass/partials/_normalize.sass */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 159, ../sass/partials/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/******************************************************************************
+ * Figures
+ ***************************************************************************** */
+/* line 167, ../sass/partials/_normalize.sass */
+figure {
+  margin: 0;
+}
+
+/******************************************************************************
+ * Forms
+ ***************************************************************************** */
+/* line 175, ../sass/partials/_normalize.sass */
+form {
+  margin: 0;
+}
+
+/* line 179, ../sass/partials/_normalize.sass */
+fieldset {
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 184, ../sass/partials/_normalize.sass */
+legend {
+  border: 0;
+  *margin-left: -7px;
+}
+
+/* line 190, ../sass/partials/_normalize.sass */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 199, ../sass/partials/_normalize.sass */
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/* line 206, ../sass/partials/_normalize.sass */
+table button, table input {
+  *overflow: auto;
+}
+
+/* line 211, ../sass/partials/_normalize.sass */
+button, html input[type="button"], html input[type="reset"], html input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* line 219, ../sass/partials/_normalize.sass */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 224, ../sass/partials/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 232, ../sass/partials/_normalize.sass */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 236, ../sass/partials/_normalize.sass */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 242, ../sass/partials/_normalize.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/******************************************************************************
+ * Tables
+ ***************************************************************************** */
+/* line 252, ../sass/partials/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
